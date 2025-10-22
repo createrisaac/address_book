@@ -1,0 +1,7 @@
+
+Person1 details:
+Name: Isaac
+Address: Tamang
+Phone: 9840
+
+Person1 details:
