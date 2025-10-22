@@ -40,10 +40,12 @@ int main()
     cout<<person1.phone <<endl;
 
     char question;
-    cout<<"Do you want add another person's detail?(y/n)";
+    cout<<"Do you want add another person's detail?(1/0)";
     cin>>question;
-    if(question=='y'){
+    if(question==1){
     addinfo();
+}else{
+    cout<<"Thanks for the answer";
 }
 
 
