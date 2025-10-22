@@ -39,7 +39,7 @@ void addinfo() {
 int main() {
     
 
-     ofstream file("addressbook.txt", ios::app);
+     ofstream file("addressbook.txt");
     if(file.is_open()){
         file<< "\nPerson1 details:" << endl;
         for(int i=0;i<people.size();i++){
