@@ -39,14 +39,21 @@ int main()
     cout<<person1.address <<endl;
     cout<<person1.phone <<endl;
 
-    char question;
-    cout<<"Do you want add another person's detail?(1/0)";
+    cout <<"Press the numbers to perform following actions.";
+    cout <<"1. Add another person detail." <<endl;
+    cout <<"2. Displaly all the information." <<endl;
+    int question;
     cin>>question;
-    if(question==1){
-    addinfo();
-}else{
-    cout<<"Thanks for the answer";
-}
-
+ 
+    switch (question)
+    {
+    case 1:
+        addinfo();
+        break;
+    case 2:
+        cout << 1 + question <<" till yet " <<endl;
+    default:
+        break;
+    }
 
 }
