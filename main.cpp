@@ -42,7 +42,7 @@ int main()
     char question;
     cout<<"Do you want add another person's detail?(y/n)";
     cin>>question;
-    if(question='y'){
+    if(question=='y'){
     addinfo();
 }
 
